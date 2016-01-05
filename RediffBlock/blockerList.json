@@ -1,4 +1,12 @@
 [{
+  "action": {
+    "type": "block"
+  },
+  "trigger": {
+    "url-filter": ".*theverge.*"
+  }
+  },
+  {
   "trigger": {
     "url-filter": "^[^:]+://+([^:/]+\\.)?247realmedia\\.com[:/]",
     "url-filter-is-case-sensitive":true,
